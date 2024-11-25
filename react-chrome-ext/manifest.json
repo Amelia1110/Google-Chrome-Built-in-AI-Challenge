@@ -6,5 +6,16 @@
   "action": {
       "default_popup": "dist/js/index.html",
       "default_title": "React Chrome Extension"
-  }
+  },
+  "background": {
+    "service_worker": "dist/js/background.js",
+    "type": "module"
+  },
+  "permissions": [
+        "storage",
+        "tabs",
+        "activeTab", 
+        "contextMenus", 
+        "scripting"
+  ]
 }
