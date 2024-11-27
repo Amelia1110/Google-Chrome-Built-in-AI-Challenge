@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Google Gemini AI Challenge",
+  "version": "1.0",
+  "description": "Utilizes Google's Gemeni AI to assist with writing.",
+  "permissions": ["contextMenus", "scripting"],
+  "host_permissions": ["https://docs.google.com/*"],
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_title": "React Popup"
+  }
+}
