@@ -1,0 +1,58 @@
+/* Style for the popup container */
+#react-root {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Tab navigation style */
+.tab-container {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #e9e9e9;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+  border-bottom: 2px solid #007bff;
+}
+
+.tab-content {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional styling for content */
+.tab-content p {
+  margin: 0;
+}
+
+/* Styling for the highlighted text display */
+.highlighted-text {
+  font-weight: bold;
+  color: #007bff;
+  word-wrap: break-word;
+  word-break: break-all;
+}
